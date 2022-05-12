@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #38a015;
+  --color-secondary: #90ddf0;
+  --color-third: #ea9010;
+  --color-yellow: #faf559;
+  --color-dark: #1b2d2a;
+  --color-light: #fef9ef;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-size-s: 24px;
+  --font-size-m: 40px;
+  --font-family-poppins: "Poppins";
+}
+
+.poppins-semi-bold-black-40px {
+  color: var(--color-dark);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-medium-timber-green-24px {
+  color: var(--color-dark);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semi-bold-white-24px {
+  color: var(--color-white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
