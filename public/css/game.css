@@ -1,0 +1,141 @@
+@import url("style-guide.css");
+@import url("navbar.css");
+
+.overlap-content {
+	align-self: stretch;
+	margin-right: 2%;
+	margin-top: 1.7%;
+	position: relative;
+	width: 90%;
+}
+
+.overlap-play {
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	display: flex;
+	height: 555px;
+	position: relative;
+}
+
+.overlap-coins {
+	position: absolute;
+	left: 38%;
+	top: 15%;
+}
+
+.background-play {
+	position: absolute;
+	height: 70%;
+	left: 50%;
+	top: 86px;
+	width: 60%;
+}
+
+.button-play {
+	position: absolute;
+	align-self: center;
+	left: 85%;
+	width: 20%;
+	top: 30%;
+}
+
+.title {
+	position: absolute;
+	text-align: center;
+	left: 7%;
+	top: 40%;
+}
+
+.flex-row {
+	margin: auto;
+	text-align: center;
+}
+
+.overlap-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 418px;
+	width: 110%;
+	outline: none;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	margin-top: 3%;
+	height: 110%;
+	min-width: 464px;
+	width: 30%;
+	margin-bottom: 4%;
+	border: none;
+}
+.column {
+	height: 245px;
+	text-align: center;
+	justify-content: center;
+	flex-grow: 2;
+}
+
+.rectangle {
+	position: absolute;
+	background-color: var(--color-light);
+	border-radius: 18px;
+	box-shadow: 0px 4px 20px #00000040;
+	height: 80%;
+	width: 80%;
+}
+
+.link {
+	text-decoration: none;
+	position: absolute;
+	text-align: center;
+	margin-top: 10%;
+	width: 80%;
+}
+.link:hover,
+.link:active {
+	color: var(--color-primary);
+}
+
+/* -----IMG CARDS----- */
+.img {
+	display: flex;
+	position: absolute;
+}
+
+.man-walking-dogs {
+	left: 5%;
+	bottom: 5%;
+	height: 60%;
+}
+.lady-doctor {
+	height: 70%;
+	bottom: 8%;
+	right: -10%;
+}
+.girl-and-boy-sitting {
+	left: 5%;
+	bottom: 10%;
+	height: 59%;
+}
+.cat-books {
+	left: 5%;
+	object-fit: cover;
+	bottom: 26%;
+	height: 28%;
+}
+.shopping-cart {
+	bottom: 18%;
+	right: 0.1%;
+	height: 62%;
+}
+.leaderboard {
+	height: 100%;
+	margin-left: 70%;
+	mix-blend-mode: exclusion;
+	object-fit: cover;
+	top: 0;
+}

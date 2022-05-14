@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,600");
+
 :root {
   --color-primary: #38a015;
   --color-secondary: #90ddf0;
@@ -10,6 +12,12 @@
   --font-size-s: 24px;
   --font-size-m: 40px;
   --font-family-poppins: "Poppins";
+
+/* min width of devices */
+  --size-desktop: 1024px; /* above this only desktop */
+  /* between this tablet */
+  --size-tablet: 768px;
+  /* under this mobile */
 }
 
 .poppins-semi-bold-black-40px {
